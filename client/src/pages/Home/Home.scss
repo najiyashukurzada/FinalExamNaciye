@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+    .h1element{
+        text-align: center;
+        padding: 50px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .pelement{
+        text-align: center;
+        padding: 20px 600px;
+        color: gray;
+    }
+    .teacher{
+        display: flex;
+        .svg{
+            svg{
+                margin-left: 350px;
+                width: 600px;
+            }
+        }
+        .textss{
+            margin-top: 100px;
+            padding-left: 80px;
+            h2{
+                font-weight: 400;
+                font-size: 45px;
+                width: 500px;
+            }
+            .ptest{
+                padding-top: 30px;
+                font-size: 20px;
+                color: gray;
+                width: 500px;
+            }
+            &__icons{
+                display: flex;
+                margin: 30px 0px;
+                .icon{
+                    background-color: rgb(79, 69, 227);
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    color: rgb(79, 69, 227);
+                }
+            }
+            &__icons2{
+                display: flex;
+                .icon{
+                    background-color: rgb(79, 69, 227);
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    color: rgb(79, 69, 227);
+                }
+            }
+        }
+    }
+    .teacher__two{
+        display: flex;
+        .svg{
+            svg{
+                margin-left: 350px;
+                width: 600px;
+            }
+        }
+        .textss{
+            margin-top: 100px;
+            padding-left: 80px;
+            h2{
+                font-weight: 400;
+                font-size: 45px;
+                width: 500px;
+            }
+            .ptest{
+                padding-top: 30px;
+                font-size: 20px;
+                color: gray;
+                width: 500px;
+            }
+            &__icons{
+                display: flex;
+                margin: 30px 0px;
+                .icon{
+                    background-color: rgb(79, 69, 227);
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    color: rgb(79, 69, 227);
+                }
+            }
+            &__icons2{
+                display: flex;
+                .icon{
+                    background-color: rgb(79, 69, 227);
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    color: rgb(79, 69, 227);
+                }
+            }
+        }
+    }
+    .section__backend{
+        .backend__part__text{
+            text-align: center;
+            h1{
+                padding: 50px;
+                font-size: 50px;
+            }
+            p{
+                color: gray;
+                font-size: 18px;
+                padding: 0px 600px;
+            }
+        }
+        .backend__part__cards{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 70px;
+            &__total{
+                margin: 30px;
+                &__img{
+                    img{
+                        width: 200px;
+                        border-radius: 50%;
+                        margin: 30px;
+                        margin-left: 70px;
+                    }
+                }
+                border: 1px solid rgb(214, 214, 214);
+                width: 350px;
+                &__name{
+                    text-align: center;
+                    padding: 30px;
+                }
+                &__subject{
+                    text-align: center;
+                    padding: 10px;
+                    color: rgb(182, 179, 179);
+                }
+                &__desc{
+                    text-align: center;
+                    padding: 30px;
+                    color:  gray;
+                }
+                button{
+                    margin: 20px;
+                    border: none;
+                    color: white;
+                    background-color: rgb(79, 69, 227);
+                    font-size: 20px;
+                    padding: 20px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .section__formik{
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 200px;
+            label{
+                text-align: center;
+                font-size: 50px;
+                font-weight: 800;
+                margin: 20px;
+            }
+            input{
+                margin: 20px;
+                padding: 20px;
+                width: 500px;
+            }
+            button{
+                border: none;
+                padding: 30px;
+                background-color: rgb(79, 69, 227);
+                color: white;
+                font-weight: 800;
+                border-radius: 30px;
+            }
+        }
+    }
+}
